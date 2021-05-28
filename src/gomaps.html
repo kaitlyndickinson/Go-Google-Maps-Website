@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    </head>
+
+    <div class="header">
+        <a href="/index.html" style="text-decoration: none;" target="_parent">
+            <h1 style="color:white">Go Maps</h1>
+        </a>
+        <p>Enter a location in the form: Address, City, State Zipcode</p>
+        <p>Example: 3201 Campus Dr, Klamath Falls, OR 97601</p>
+        <p>You can also enter the name of a place, such as Brevada Brewhouse and Google Maps will usually figure it out</p>
+        <p>Zoom level from 0-30, 0 will show the entire world map and 20-30 will show a close up view of the location</p>
+        <p>Map size needs to be in the form WidthxHeight</p>
+        <p>Map type can be roadmap, satellite, hybrid, or terrain</p>
+        <p>For best results enter all fields or only supply a geographic location</p>
+        <p>Press <b>Generate Map</b> when you are ready to generate your map!</p>
+    </div>
+
+    <form action="/savemap" method="POST">
+        <label for="maplocation">Geographic location:</label><br>
+        <input type="text" id="maplocation" name="maplocation"><br><br>
+
+        <label for="zoomlevel">Zoom level:</label><br>
+        <input type="text" id="zoomlevel" name="zoomlevel"><br><br>
+
+        <label for="mapsize">Map size:</label><br>
+        <input type="text" id="mapsize" name="mapsize"><br><br>
+
+        <label for="maptype">Map type:</label><br>
+        <input type="text" id="maptype" name="maptype"><br><br>
+
+        <input type="submit" value="Generate Map"><br><br><br>
+    </form>
+</body>
+
+</html>

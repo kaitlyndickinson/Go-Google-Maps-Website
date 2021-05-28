@@ -1,0 +1,61 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #457b9d;
+    color: white;
+    font-size: 30px;
+}
+
+.relative {
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 70px;
+}
+
+.navitem {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border: gray;
+    margin: 15px;
+    background-color: #e63946;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.generateMapButton {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 30px;
+    width: 150px;
+}
+
+label {
+    width: 250px;
+    clear: left;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+input,
+label {
+    float: left;
+    margin: 5px;
+}

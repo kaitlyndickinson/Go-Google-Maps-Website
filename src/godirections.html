@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    </head>
+
+    <div class = "header">
+        <h1>Go Maps</h1>
+        <p>Find your way</p>
+    </div>
+
+    <form action="/savedirections" method="POST">
+        <label for="startLocation">Enter a starting location:</label><br>
+        <input type="text" id="startLocation" name="startLocation"><br><br>
+
+        <label for="endLocation">Enter a ending location:</label><br>
+        <input type="text" id="endLocation" name="endLocation"><br><br>
+
+        <input type="submit" value="Generate Direction"><br><br><br>
+    </form>
+</body>
+</html>
