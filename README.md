@@ -1,2 +1,2 @@
 # Go-Google-Maps-Website
-Website created using a Go Client library for Google Maps API for a group project.
+Website created using a [Go Client library for Google Maps API](https://github.com/googlemaps/google-maps-services-go) for a group project in Concepts of Programming Languages. The website contains four features allowing users to generate static maps based on geographic locations, get lat/lon information, get timezone/elevation information, and get directions via JSON file.
